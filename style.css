@@ -1,8 +1,29 @@
 body{
-    padding:0px
+    margin:0px;
 }
 
 nav{
-    height:50px
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(254, 229, 129);
+}
+
+nav ul{
     
+    list-style-type:none;
+    display:flex;
+    text-decoration:none;
+    gap:50px
+
+}
+
+nav a{
+    
+}
+
+nav img{
+    max-height:100%
 }
