@@ -1,5 +1,13 @@
 body{
     margin:0px;
+    background-color: #fff3b0;
+}
+
+#sub{
+    margin:10px;
+    align-items:center;
+    justify-content:center;
+
 }
 
 nav{
@@ -8,7 +16,8 @@ nav{
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    background-color:rgb(254, 229, 129);
+    background-color:#9E2A2B;
+    padding:25px;
 }
 
 nav ul{
@@ -16,12 +25,31 @@ nav ul{
     list-style-type:none;
     display:flex;
     text-decoration:none;
-    gap:50px
+    gap:50px;
+
 
 }
 
+#homes{
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    color:rgb(241, 226, 151);
+    font-size:200px;
+    margin:0px;
+    height:520px;
+    background-image: url("https://i.pinimg.com/1200x/2a/29/17/2a2917b3984e7e6929d50ab1cf0d1f27.jpg");
+    background-size:100% auto;
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+
 nav a{
-    
+    list-style-type:none;
+    text-decoration:none;
+    color:#E09F3E;
+    font-size:30px
 }
 
 nav img{
@@ -54,38 +82,14 @@ ul{
     gap:20px;
 }
 
-#general{
-    margin:5px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    align-items:center;
-    height:500px;
-    width: 100%;
-    background-color:yellow;
-    margin:10px;
-}
 
-#things{
-    margin:5px;
+#boxes{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
+    flex: 1 1 250px;
     align-items:center;
-    width:100%;
-    background-color:yellow;
-    height:500px;
-    margin:10px
-}
-
-#map{
-    margin:5px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    align-items:center;
-    background-color:yellow;
-    height:500px;
-    width:100%;
-    margin:10px
+    background-color:#335C67;
+    height:450px;
+    width:350px;
 }
