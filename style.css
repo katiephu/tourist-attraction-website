@@ -27,3 +27,65 @@ nav a{
 nav img{
     max-height:100%
 }
+
+.guide{
+    display:flex;
+    flex-wrap:wrap;
+    flex: 1 1 250px;
+    height:700px;
+
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+   
+
+
+}
+
+    
+    
+
+
+ul{
+    list-style-type:none;
+    display:flex;
+    text-decoration:none;
+    gap:20px;
+}
+
+#general{
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    height:500px;
+    width: 100%;
+    background-color:yellow;
+    margin:10px;
+}
+
+#things{
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    width:100%;
+    background-color:yellow;
+    height:500px;
+    margin:10px
+}
+
+#map{
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    background-color:yellow;
+    height:500px;
+    width:100%;
+    margin:10px
+}
